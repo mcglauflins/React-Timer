@@ -6,7 +6,7 @@
 .App {
   text-align: center;
   height: 100vh;
-  background-color: #282c34;
+  background-color: #bdf0bb;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,13 +19,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(270deg, #051817, #3d1649);
+  background: linear-gradient(270deg, #1c7773, #9cda8a);
   height: 180px;
   width: 360px;
-  color: #be1ff3;
+  color: #1ff377;
   text-shadow: 1px 1px 7px;
   border-radius: 15px;
-  border: 2px solid silver;
+  border: 2px solid rgb(14, 13, 13);
   box-shadow: 0 0 5px 25px;
 }
 
@@ -40,7 +40,7 @@
   font-size: 4rem;
 }
 .clock section small {
-  color: silver;
+  color: rgb(12, 12, 12);
   text-shadow: none;
 }
 .App-logo {
@@ -62,11 +62,11 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(7, 7, 7);
 }
 
 .App-link {
-  color: #8d00eb;
+  color: #75d67a;
 }
 
 @keyframes App-logo-spin {
